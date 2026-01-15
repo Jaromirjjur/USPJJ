@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d41c872-c7ae-47b6-bc4a-c66818696efd" name="Changes" comment="" />
+    <list default="true" id="5d41c872-c7ae-47b6-bc4a-c66818696efd" name="Changes" comment="Created simple script that's generating UpSetPlot from user's provided dataset." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +53,19 @@
       <option name="presentableId" value="Default" />
       <updated>1768298481676</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created simple script that's generating UpSetPlot from user's provided dataset.">
+      <option name="closed" value="true" />
+      <created>1768495912925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768495912925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created simple script that's generating UpSetPlot from user's provided dataset." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created simple script that's generating UpSetPlot from user's provided dataset." />
   </component>
 </project>
