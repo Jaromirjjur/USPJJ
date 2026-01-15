@@ -22,14 +22,13 @@ def main():
     "Please ensure your Excel file follows this structure:\n"
     "• The first row must contain column headers.\n"
     "• The first column (e.g. names or IDs) will be dropped automatically. Make sure it doesn't contain values.\n"
-    "• All other columns should contain only 0 or 1 values.\n"
-    "• Make sure the Excel file is closed before proceeding.\n"
-    "• The plot will show combinations of columns that match the selected value (0 or 1).\n\n"
+    "• All other columns should contain only 0 or 1 values.\n\n"
+    "Make sure the Excel file is closed before proceeding.\n\n"
+    "The plot will show combinations of columns that match the selected value (0 or 1).\n\n"
     "After clicking OK, you’ll be prompted to choose your Excel file.")
     messagebox.showinfo(title="USPJJ instructions", message=description)
 
     # Let user choose Excel file
-    #Tk().withdraw()  # Hide the root Tk window
     file_path = filedialog.askopenfilename(
         title="Select the Excel file",
         filetypes=[("Excel files", "*.xlsx *.xls")]
@@ -39,7 +38,7 @@ def main():
 
     if not file_path:
         print("No file selected. Exiting.")
-        messagebox.showwarning(title="Script stopped", message="No file selected. Terminating process.")
+        messagebox.showwarning(title="Script stopped!", message="No file selected. Terminating process.")
         return
 
     criteria_message = ("Choose whether you want to see groups that meet the criteria (value = 1) or that do not (value = 0).\n"
@@ -59,7 +58,8 @@ def main():
         print("[4] First column dropped.")
 
         print("[5] Starting to generate memberships...")
-        # Generate memberships (columns with 0s)
+
+        # Generate memberships
         memberships = ef.apply(lambda row: tuple(col for col in ef.columns if row[col] == criteria), axis=1)
         membership_counts = memberships.value_counts()
         upset_data = from_memberships(membership_counts.index.tolist(), data=membership_counts.values)
@@ -78,7 +78,7 @@ def main():
         fig.suptitle(plot_name)
 
         # Save to same folder as input file
-        output_path = os.path.join(os.path.dirname(file_path), "UpSetPlot.png")
+        output_path = os.path.join(os.path.dirname(file_path), "UpSet_plot.png")
         fig.savefig(output_path, dpi=300, bbox_inches="tight")
         plt.close(fig)
 
@@ -93,7 +93,7 @@ def main():
                 subprocess.call(["xdg-open", path])
 
         open_file(output_path)
-        messagebox.showinfo(title="Success", message="UpSet plot successfully generated.")
+        messagebox.showinfo(title="Success!", message="UpSet plot successfully generated.")
 
 
     except Exception as e:

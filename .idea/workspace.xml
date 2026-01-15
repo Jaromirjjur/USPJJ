@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d41c872-c7ae-47b6-bc4a-c66818696efd" name="Changes" comment="Created simple script that's generating UpSetPlot from user's provided dataset.">
+    <list default="true" id="5d41c872-c7ae-47b6-bc4a-c66818696efd" name="Changes" comment="Improved to show option to generate groups by value 0 or 1 based on user input.&#10;Plot image now opens once the program is finished.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UpSetPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/UpSetPlot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custommessage.py" beforeDir="false" afterPath="$PROJECT_DIR$/CustomMessage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +81,20 @@
       <option name="project" value="LOCAL" />
       <updated>1768496435133</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Improved to show option to generate groups by value 0 or 1 based on user input.&#10;Plot image now opens once the program is finished.">
+      <option name="closed" value="true" />
+      <created>1768508977629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768508977629</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created simple script that's generating UpSetPlot from user's provided dataset." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created simple script that's generating UpSetPlot from user's provided dataset." />
+    <MESSAGE value="Improved to show option to generate groups by value 0 or 1 based on user input.&#10;Plot image now opens once the program is finished." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved to show option to generate groups by value 0 or 1 based on user input.&#10;Plot image now opens once the program is finished." />
   </component>
 </project>
