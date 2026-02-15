@@ -12,6 +12,8 @@ USPJJ is a lightweight tool designed to generate **UpSet plots** from Excel data
 
 The tool is intended for both technical and non-technical users and is available as a standalone Windows executable as well as a Python script.
 
+For a better understanding of the expected Excel data structure, please refer to the sample file included in this repository.
+
 ---
 
 ## Features
@@ -21,7 +23,8 @@ The tool is intended for both technical and non-technical users and is available
 - Automatically drops the first column (e.g. client IDs or names)  
 - Generates high-resolution PNG images  
 - Windows-compatible standalone executable (`.exe`)  
-- CLI script available for Python environments  
+- CLI script available for Python environments
+- includes data sample  
 
 ---
 
