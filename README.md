@@ -24,7 +24,7 @@ For a better understanding of the expected Excel data structure, please refer to
 - Generates high-resolution PNG images  
 - Windows-compatible standalone executable (`.exe`)  
 - CLI script available for Python environments
-- includes data sample  
+- Includes data sample  
 
 ---
 
