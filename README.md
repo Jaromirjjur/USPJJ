@@ -16,7 +16,7 @@ The tool is intended for both technical and non-technical users and is available
 
 ## Features
 
-- Accepts Excel files (`.xlsx` or `.xls`) with binary data  
+- Accepts Excel files (`.xlsx` or `.xls`) **with binary data**  
 - Supports filtering on `0` or `1` values  
 - Automatically drops the first column (e.g. client IDs or names)  
 - Generates high-resolution PNG images  
