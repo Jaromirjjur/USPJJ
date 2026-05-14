@@ -16,6 +16,10 @@ For a better understanding of the expected Excel data structure, please refer to
 
 ---
 
+<img width="6330" height="1485" alt="client_upset_plot - Copy" src="https://github.com/user-attachments/assets/d9014402-68a6-4394-8c57-375db435526a" />
+
+---
+
 ## Features
 
 - Accepts Excel files (`.xlsx` or `.xls`) **with binary data**  
